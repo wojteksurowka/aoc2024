@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build",
+          "type": "shell",
+          "command": "gcc -Wall -g aoc1.c -o a.out",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      }
+  ]
+}

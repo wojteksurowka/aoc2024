@@ -3,7 +3,7 @@
 
 size_t count_lines()
 {
-    FILE* fp = fopen("in1.txt", "r");
+    FILE* fp = fopen("in01.txt", "r");
     size_t count = 0;
     int f, s;
     while (fscanf(fp, "%d %d", &f, &s) == 2)
@@ -14,7 +14,7 @@ size_t count_lines()
 
 void read(int* buf1, int* buf2, size_t count)
 {
-    FILE* fp = fopen("in1.txt", "r");
+    FILE* fp = fopen("in01.txt", "r");
     while (count--)
         fscanf(fp, "%d %d", buf1++, buf2++);
     fclose(fp);

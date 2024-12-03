@@ -64,7 +64,7 @@ int safe_2nd(int* buf, size_t count)
 
 void first()
 {
-    FILE* fp = fopen("in2.txt", "r");
+    FILE* fp = fopen("in02.txt", "r");
     int buf[10];
     size_t count;
     size_t total = 0;
@@ -79,7 +79,7 @@ void first()
 
 void second()
 {
-    FILE* fp = fopen("in2.txt", "r");
+    FILE* fp = fopen("in02.txt", "r");
     int buf[10];
     size_t count;
     size_t total = 0;

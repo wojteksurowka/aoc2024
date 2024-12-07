@@ -4,7 +4,7 @@
       {
           "label": "build",
           "type": "shell",
-          "command": "gcc -Wall -g aoc06.c -o a.out",
+          "command": "gcc -Wall -g aoc07.c -o a.out",
           "group": {
               "kind": "build",
               "isDefault": true

@@ -157,6 +157,7 @@ int main()
     char** rows = malloc(nrows * sizeof(char*));
     get_rows(contents, rows, nrows, width);
     second(rows, nrows, width);
+    free(rows);
     free(contents);
     return 0;
 }

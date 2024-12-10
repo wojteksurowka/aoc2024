@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define UP 1
-#define RIGHT 2
-#define DOWN 3
-#define LEFT 4
-
 char* read_file(const char* name)
 {
     FILE* fp = fopen(name, "r");

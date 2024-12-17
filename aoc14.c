@@ -6,7 +6,6 @@ size_t count_lines()
     FILE* fp = fopen("in14.txt", "r");
     size_t count = 0;
     int px, py, vx, vy;
-//    while (fscanf(fp, "p=%d,", &px) == 1)
     while (fscanf(fp, "p=%d,%d v=%d,%d", &px, &py, &vx, &vy) == 4)
     {
         ++count;
